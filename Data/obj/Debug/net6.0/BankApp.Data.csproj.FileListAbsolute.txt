@@ -15,3 +15,20 @@ C:\Users\S2-PC00\Downloads\BankApp_ADO.NET_EF\Data\obj\Debug\net6.0\refint\BankA
 C:\Users\S2-PC00\Downloads\BankApp_ADO.NET_EF\Data\obj\Debug\net6.0\BankApp.Data.pdb
 C:\Users\S2-PC00\Downloads\BankApp_ADO.NET_EF\Data\obj\Debug\net6.0\BankApp.Data.genruntimeconfig.cache
 C:\Users\S2-PC00\Downloads\BankApp_ADO.NET_EF\Data\obj\Debug\net6.0\ref\BankApp.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Data.deps.json
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Data.runtimeconfig.json
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Data.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\BankApp.Models.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.csproj.AssemblyReference.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.AssemblyInfoInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.AssemblyInfo.cs
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.csproj.CoreCompileInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.csproj.CopyComplete
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\refint\BankApp.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\BankApp.Data.genruntimeconfig.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\ref\BankApp.Data.dll

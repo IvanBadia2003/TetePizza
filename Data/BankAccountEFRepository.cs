@@ -12,17 +12,17 @@ namespace BankApp.Data
             _context = context;
         }
 
-        public void AddAccount(BankAccount account)
+        public void AddAccount(Pizza account)
         {
-            _context.BankAccounts.Add(account);
+            _context.Pizza.Add(account);
         }
 
-        public BankAccount GetAccount(string accountNumber)
+        public Pizza GetAccount(string accountNumber)
         {
-            return _context.BankAccounts.FirstOrDefault(account => account.Number == accountNumber);
+            return _context.Pizza.FirstOrDefault(account => account.Number == accountNumber);
         }
 
-        public void UpdateAccount(BankAccount account)
+        public void UpdateAccount(Pizza account)
         {
             // En EF Core, si el objeto ya está siendo rastreado, actualizar sus propiedades
             // y llamar a SaveChanges() es suficiente para actualizarlo en la base de datos.
@@ -35,7 +35,7 @@ namespace BankApp.Data
             if (account is null) {
                 throw new KeyNotFoundException("Account not found.");
             }
-            _context.BankAccounts.Remove(account);
+            _context.Pizza.Remove(account);
             SaveChanges();
 
         }
@@ -48,24 +48,24 @@ namespace BankApp.Data
 
 
         public void GetTransactionsFromBankAccount(string accountNumber) {
-            var transactions = _context.Transactions
+            var transactions = _context.Ingrediente
                                 .Where(t => t.BankAccountId == accountNumber)
-                                .Include(t => t.BankAccount) // carga no lazy loading de BankAccount
+                                .Include(t => t.Pizza) // carga no lazy loading de BankAccount
                                 .ToList();
 
             foreach(var transaction in transactions)
             {
                 // Puedes acceder directamente a los detalles de la cuenta asociada sin una nueva consulta
-                Console.WriteLine($"Transacción por {transaction.Amount} en cuenta {transaction.BankAccount.Number}");
+                Console.WriteLine($"Transacción por {transaction.Amount} en cuenta {transaction.Pizza.Number}");
             }
 
         }
 
-        public List<Transaction> GetTransactionsByAccount(string accountNumber)
+        public List<Ingrediente> GetTransactionsByAccount(string accountNumber)
         {
-            return _context.Transactions
+            return _context.Ingrediente
                                 .Where(t => t.BankAccountId == accountNumber)
-                                .Include(t => t.BankAccount)
+                                .Include(t => t.Pizza)
                                 .ToList();
         }
     }   

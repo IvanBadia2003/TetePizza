@@ -51,7 +51,7 @@ namespace BankApp.Business
 
         // Métodos para crear cuenta, buscar cuenta, etc.
 
-        public BankAccount GetBankAccount(string accountNumber)
+        public Pizza GetBankAccount(string accountNumber)
         {
            // var account = _repository.GetAccount(accountNumber) ?? throw new KeyNotFoundException("Account not found.");
              var account = _repository.GetAccount(accountNumber);
@@ -68,7 +68,7 @@ namespace BankApp.Business
             var transactions = _repository.GetTransactionsByAccount(accountNumber);
             foreach(var transaction in transactions)
             {
-                Console.WriteLine($"Transacción por {transaction.Amount} en cuenta {transaction.BankAccount.Number}");
+                Console.WriteLine($"Transacción por {transaction.Amount} en cuenta {transaction.Pizza.Number}");
             }
             if (transactions.Count == 0) 
             {

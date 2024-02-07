@@ -3,7 +3,7 @@ namespace BankApp.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-public class BankAccount
+public class Pizza
 {
     [Key]
     public string? Number { get; set;}
@@ -29,7 +29,7 @@ public class BankAccount
 
     private static int accountNumberSeed = 1;
 
-    public List<Transaction> transactions { get; set; } = new List<Transaction>();
+    public List<Ingrediente> transactions { get; set; } = new List<Ingrediente>();
 
     public void MakeDeposit(decimal amount, DateTime date, string note)
     {
@@ -37,7 +37,7 @@ public class BankAccount
         {
             throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
         }
-        var deposit = new Transaction(amount, date, note);
+        var deposit = new Ingrediente(amount, date, note);
         transactions.Add(deposit);
     }
 
@@ -51,12 +51,12 @@ public class BankAccount
         {
             throw new InvalidOperationException("Not sufficient funds for this withdrawal");
         }
-        var withdrawal = new Transaction(-amount, date, note);
+        var withdrawal = new Ingrediente(-amount, date, note);
         transactions.Add(withdrawal);
     }
 
-    public BankAccount() {}
-    public BankAccount(string name, decimal initialBalance)
+    public Pizza() {}
+    public Pizza(string name, decimal initialBalance)
     {
         Owner = name;
         Number = accountNumberSeed.ToString();

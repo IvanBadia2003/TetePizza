@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BankApp.Models;
 
-public class Transaction
+public class Ingrediente
 {
     [Key]
     public int TransactionId { get; set; }
@@ -13,15 +13,15 @@ public class Transaction
     public DateTime Date { get; set;}
     public string Note { get; set;}
 
-    [ForeignKey("BankAccount")]
+    [ForeignKey("Pizza")]
     public string BankAccountId { get; set; }
     // Propiedad de navegación
-    public BankAccount BankAccount { get; set; }
+    public Pizza Pizza { get; set; }
 
     // EF Core requiere un constructor sin parámetros
-    public Transaction() { }
+    public Ingrediente() { }
 
-    public Transaction(decimal amount, DateTime date, string note)
+    public Ingrediente(decimal amount, DateTime date, string note)
     {
         Amount = amount;
         Date = date;

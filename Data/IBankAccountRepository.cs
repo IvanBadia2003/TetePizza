@@ -4,12 +4,12 @@ namespace BankApp.Data
 {
     public interface IBankAccountRepository
     {
-        void AddAccount(BankAccount account);
-        BankAccount GetAccount(string accountNumber);
-        void UpdateAccount(BankAccount account);
+        void AddAccount(Pizza account);
+        Pizza GetAccount(string accountNumber);
+        void UpdateAccount(Pizza account);
         void SaveChanges();   
 
-        List<Transaction> GetTransactionsByAccount(string accountNumber);
+        List<Ingrediente> GetTransactionsByAccount(string accountNumber);
 
     }
 }

@@ -9,7 +9,7 @@ namespace BankApp.Business
         void MakeWithdrawal(string accountNumber, decimal amount, string note);
         string GetAccountHistory(string accountNumber);
 
-        public BankAccount GetBankAccount(string accountNumber);
+        public Pizza GetBankAccount(string accountNumber);
 
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tz+YKiyIuwf6mqZSF+0MRy4VOc5f9KJJaJZLd3vM2VpRDISu4sbkflOg7rqVAPJKoPTU0bbTmcwnJnHRkRzfqQ==",
+  "dgSpecHash": "uy7VzDoJ12l+Ua75yokBE2k7rRKIhzS11RNMeJtc8Guv5Ww4AiUVM4qXbWdeKyO3aHfv4XEBMTQqFwO4NlPkmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S2-PC00\\Downloads\\BankApp_ADO.NET_EF\\Data\\BankApp.Data.csproj",
+  "projectFilePath": "D:\\IvanBadia\\DESARROLLO EN ENTORNO SERVIDOR\\TetePizza\\Data\\BankApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S2-PC00\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\S2-PC00\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
