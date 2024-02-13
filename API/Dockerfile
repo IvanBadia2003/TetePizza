@@ -6,14 +6,14 @@ COPY Models/*.csproj Models/
 COPY Business/*.csproj Business/
 COPY Data/*.csproj Data/
 COPY API/*.csproj API/
-RUN dotnet restore BankAppAPI.sln
+RUN dotnet restore TetePizzaAPI.sln
 
 COPY . .
-RUN dotnet publish BankAppAPI.sln -c Release -o API/out
+RUN dotnet publish TetePizzaAPI.sln -c Release -o API/out
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/API/out .
 
 EXPOSE 80
-ENTRYPOINT ["dotnet", "BankApp.API.dll"]
+ENTRYPOINT ["dotnet", "TetePizza.API.dll"]
