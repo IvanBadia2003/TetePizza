@@ -1,0 +1,12 @@
+D:\www\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.deps.json
+D:\www\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.dll
+D:\www\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.pdb
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.csproj.AssemblyReference.cache
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.AssemblyInfoInputs.cache
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.AssemblyInfo.cs
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.csproj.CoreCompileInputs.cache
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.dll
+D:\www\TetePizza\Models\obj\Debug\net6.0\refint\TetePizza.Models.dll
+D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.pdb
+D:\www\TetePizza\Models\obj\Debug\net6.0\ref\TetePizza.Models.dll

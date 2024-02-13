@@ -1,0 +1,17 @@
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Business.deps.json
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Business.dll
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Business.pdb
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Data.dll
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Models.dll
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Models.pdb
+D:\www\TetePizza\Business\bin\Debug\net6.0\TetePizza.Data.pdb
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.csproj.AssemblyReference.cache
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.AssemblyInfoInputs.cache
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.AssemblyInfo.cs
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.csproj.CoreCompileInputs.cache
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.csproj.CopyComplete
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.dll
+D:\www\TetePizza\Business\obj\Debug\net6.0\refint\TetePizza.Business.dll
+D:\www\TetePizza\Business\obj\Debug\net6.0\TetePizza.Business.pdb
+D:\www\TetePizza\Business\obj\Debug\net6.0\ref\TetePizza.Business.dll

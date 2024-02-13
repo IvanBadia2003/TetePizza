@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N2mEnk1AG2ZqPkDlQXLHVXGNxkDSLdqYprPSG6J3G5SUSMZ0SrgWm/IJ/aKuQIYftV9RXINmCYt2QDSvvARvXA==",
+  "dgSpecHash": "vTkoSzRzKR788ywb6Euyax7jHt5Dy4IPrHfszHlqAKkNJE+leOBG0xgorliUG6rPIqQlJrBQgLPdn3kJkplpbQ==",
   "success": true,
-  "projectFilePath": "D:\\IvanBadia\\DESARROLLO EN ENTORNO SERVIDOR\\TetePizza\\Models\\BankApp.Models.csproj",
+  "projectFilePath": "D:\\www\\TetePizza\\Models\\TetePizza.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
