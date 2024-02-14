@@ -14,30 +14,31 @@ namespace TetePizza.Business
 
 
 
+        public List<Pizza> getAll()
+        {
+            var pizzas = _repository.getAll();
 
+            return pizzas;
+        }
 
         public Pizza GetPizza(int idPizza)
         {
-             var id = _repository.GetPizza(idPizza);
-             if (id is null) {
+            var id = _repository.GetPizza(idPizza);
+            if (id is null)
+            {
                 throw new KeyNotFoundException("Pizza not found.");
-             }
-            
+            }
+
             return id;
         }
 
-         public List<Ingrediente> GetIngredientesByPizza(int idPizza)
+        public void AddPizza(Pizza id)
         {
-            var ingredientes = _repository.GetIngredientesByPizza(idPizza);
-            foreach(var ingrediente in ingredientes)
-            {
-                Console.WriteLine($"este ingrediente {ingrediente.NombreIngrediente} esta en la pizza {ingrediente.Pizza.Nombre}");
-            }
-            if (ingredientes.Count == 0) 
-            {
-                    throw new KeyNotFoundException("Ingredients not found.");
-            }
-            return ingredientes;
+            _repository.AddPizza(id);
+
         }
+
+
+       
     }
 }

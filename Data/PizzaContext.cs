@@ -15,21 +15,42 @@ namespace TetePizza.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            modelBuilder.Entity<PizzaIngrediente>()
+    .HasKey(pi => new { pi.PizzaID, pi.IngredienteID });
+
+            modelBuilder.Entity<PizzaIngrediente>()
+                .HasOne(pi => pi.Pizza)
+                .WithMany(p => p.PizzaIngredientes)
+                .HasForeignKey(pi => pi.PizzaID);
+
+            modelBuilder.Entity<PizzaIngrediente>()
+                .HasOne(pi => pi.Ingrediente)
+                .WithMany(i => i.PizzaIngredientes)
+                .HasForeignKey(pi => pi.IngredienteID);
+
             modelBuilder.Entity<Pizza>().HasData(
-                new Pizza { PizzaID = 1, Nombre = "Carbonara", IsGlutenFree = "Yes" },
-                new Pizza { PizzaID = 2, Nombre = "Barbacoa", IsGlutenFree = "Yes" },
-                new Pizza { PizzaID = 3, Nombre = "Hawaina", IsGlutenFree = "No" }
+                new Pizza { PizzaID = 1, Nombre = "Hawaiana"},
+                new Pizza { PizzaID = 2, Nombre = "Barbacoa"}
             );
+
             modelBuilder.Entity<Ingrediente>().HasData(
-                new Ingrediente { IngredienteId = 1, NombreIngrediente = "Champiñon", PizzaId = 1, Origen = "Vegetal" },
-                new Ingrediente { IngredienteId = 2, NombreIngrediente = "Oliva", PizzaId = 2, Origen = "Vegetal" },
-                new Ingrediente { IngredienteId = 3, NombreIngrediente = "Piña", PizzaId = 1, Origen = "Vegetal" },
-                new Ingrediente { IngredienteId = 4, NombreIngrediente = "Pollo", PizzaId = 2, Origen = "Animal" }
+                new Ingrediente { IngredienteId = 1, NombreIngrediente = "Piña" , Origen ="Vegetal"},
+                new Ingrediente { IngredienteId = 2, NombreIngrediente = "Jamón york", Origen ="Animal"},
+                new Ingrediente { IngredienteId = 3, NombreIngrediente = "Carne picada", Origen ="Animal"}
+            );
+
+            modelBuilder.Entity<PizzaIngrediente>().HasData(
+                new PizzaIngrediente { PizzaID = 1, IngredienteID = 1 },
+                new PizzaIngrediente { PizzaID = 1, IngredienteID = 2 },
+                new PizzaIngrediente { PizzaID = 2, IngredienteID = 3 }
             );
         }
 
         public DbSet<Pizza> Pizza { get; set; }
         public DbSet<Ingrediente> Ingrediente { get; set; }
+        public DbSet<PizzaIngrediente> PizzaIngrediente { get; set; }
+
 
     }
 }

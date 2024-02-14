@@ -6,38 +6,29 @@ using System.Text;
 public class Pizza
 {
     [Key]
-    public int? PizzaID { get; set;}
+    public int PizzaID { get; set;}
 
     [Required]
-    public string? Nombre { get; set; }
-
-    [Required]
-    public string? IsGlutenFree { get; set; }
+    public string Nombre { get; set; }
 
 
 
     private static int pizzaNumberSeed = 1;
 
-    public List<Ingrediente> ingredientes { get; set; } = new List<Ingrediente>();
+    public List<PizzaIngrediente> PizzaIngredientes { get; set; }
 
 
 
 
 
     public Pizza() {}
-    public Pizza(string name, string isGlutenFree)
+    public Pizza(string name)
     {
         Nombre = name;
         PizzaID = pizzaNumberSeed;
-        IsGlutenFree = isGlutenFree;
         pizzaNumberSeed++;
     }
 
-    public override string ToString()
-    {
-        var tostring = $"La pizza {PizzaID} se llama {Nombre} y tiene los siguientes ingredientes {ingredientes}.";
-        return tostring;
-    }
 
 
 }

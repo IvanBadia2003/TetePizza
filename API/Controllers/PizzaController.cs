@@ -10,7 +10,7 @@ namespace TetePizza.API.Controllers;
 [Route("[controller]")]
 public class PizzaController : ControllerBase
 {
-    
+
     private readonly ILogger<PizzaController> _logger;
     private readonly IPizzaService _pizzaService;
 
@@ -21,21 +21,30 @@ public class PizzaController : ControllerBase
     }
 
     [HttpGet]
-        public IActionResult GetPizza()
-        {
-            var idPizza = 1;
-            var pizza = _pizzaService.GetPizza(idPizza);
-            _logger.LogError("hack");
-            return (pizza is null) ?  NotFound() : Ok(pizza); 
+    public ActionResult<List<Pizza>> getAll()
+    {
+        var pizzas = _pizzaService.getAll();
+        return pizzas;
 
-        }
 
-     [HttpGet]
-     [Route("Id")]
-        public IActionResult GetPizza(int Id)
-        {
-            var pizza = _pizzaService.GetPizza(Id);
-            return (pizza is null) ?  NotFound() : Ok(pizza); 
+    }
 
-        }
+    [HttpGet]
+    [Route("Id")]
+    public ActionResult<Pizza> GetPizza(int Id)
+    {
+        var pizza = _pizzaService.GetPizza(Id);
+        return (pizza is null) ? NotFound() : Ok(pizza);
+
+    }
+
+    [HttpPost]
+    public ActionResult AddPizza(Pizza pizza)
+    {
+        _pizzaService.AddPizza(pizza);
+        return CreatedAtAction(nameof(GetPizza), new {id = pizza.PizzaID }, pizza);
+
+
+
+    }
 }

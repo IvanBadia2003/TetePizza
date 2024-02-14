@@ -1,0 +1,13 @@
+# Carpeta de salida de compilación
+bin/
+obj/
+
+# Carpeta de dependencias
+packages/
+
+# Carpeta de caché de herramientas
+# (puede ser útil para proyectos de .NET Core/5/6)
+.vscode/
+
+# Carpeta de caché de herramientas
+.vs/

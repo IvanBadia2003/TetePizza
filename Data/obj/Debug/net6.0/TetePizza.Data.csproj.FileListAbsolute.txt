@@ -15,3 +15,20 @@ D:\www\TetePizza\Data\obj\Debug\net6.0\refint\TetePizza.Data.dll
 D:\www\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.pdb
 D:\www\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.genruntimeconfig.cache
 D:\www\TetePizza\Data\obj\Debug\net6.0\ref\TetePizza.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Data.deps.json
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Data.runtimeconfig.json
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Data.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\bin\Debug\net6.0\TetePizza.Models.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.csproj.AssemblyReference.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.AssemblyInfoInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.AssemblyInfo.cs
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.csproj.CoreCompileInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.csproj.CopyComplete
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\refint\TetePizza.Data.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\TetePizza.Data.genruntimeconfig.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Data\obj\Debug\net6.0\ref\TetePizza.Data.dll

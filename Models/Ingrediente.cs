@@ -9,12 +9,13 @@ public class Ingrediente
     public int IngredienteId { get; set; }
 
     [Column(TypeName = "NVARCHAR(150)")]
-    public string NombreIngrediente { get; set;}
-    public string Origen { get; set;}
+    public string NombreIngrediente { get; set; }
+    public string Origen { get; set; }
 
-    [ForeignKey("Pizza")]
-    public int PizzaId { get; set; }
-    public Pizza Pizza { get; set; }
+    private static int ingredienteNumberSeed = 1;
+
+
+    public List<PizzaIngrediente> PizzaIngredientes { get; set; }
 
     public Ingrediente() { }
 
@@ -22,5 +23,7 @@ public class Ingrediente
     {
         NombreIngrediente = nombre;
         Origen = origen;
+        IngredienteId = ingredienteNumberSeed;
+        ingredienteNumberSeed++;
     }
 }

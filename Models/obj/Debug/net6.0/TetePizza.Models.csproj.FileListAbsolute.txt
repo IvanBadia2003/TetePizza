@@ -10,3 +10,15 @@ D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.dll
 D:\www\TetePizza\Models\obj\Debug\net6.0\refint\TetePizza.Models.dll
 D:\www\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.pdb
 D:\www\TetePizza\Models\obj\Debug\net6.0\ref\TetePizza.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.deps.json
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\bin\Debug\net6.0\TetePizza.Models.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.csproj.AssemblyReference.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.AssemblyInfoInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.AssemblyInfo.cs
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.csproj.CoreCompileInputs.cache
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\refint\TetePizza.Models.dll
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\TetePizza.Models.pdb
+D:\IvanBadia\DESARROLLO EN ENTORNO SERVIDOR\TetePizza\Models\obj\Debug\net6.0\ref\TetePizza.Models.dll

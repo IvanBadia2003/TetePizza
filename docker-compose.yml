@@ -10,7 +10,7 @@ volumes:
 services:
     db:
         #container_name: dbContainer
-        image: mcr.microsoft.com/mssql/server:2022-latest
+        image: mcr.microsoft.com/mssql/server:2019-CU21-ubuntu-20.04
         ports:
             - 8002:1433 #never change internal port!!!
         networks:
